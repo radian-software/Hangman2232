@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		284815F4172DB1F900760128 /* RightToLeftSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 284815F3172DB1F900760128 /* RightToLeftSegue.m */; };
+		284815F6172DB58700760128 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284815F5172DB58700760128 /* QuartzCore.framework */; };
+		284815F9172DB5FF00760128 /* LeftToRightSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 284815F8172DB5FF00760128 /* LeftToRightSegue.m */; };
+		284815FC172DC7FC00760128 /* Package.m in Sources */ = {isa = PBXBuildFile; fileRef = 284815FB172DC7FC00760128 /* Package.m */; };
+		287AF0901735B87B009C0A46 /* CakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 287AF08F1735B87B009C0A46 /* CakeViewController.m */; };
+		287AF0931735FD7C009C0A46 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 287AF0921735FD7B009C0A46 /* AboutViewController.m */; };
+		28EFE1E41739E95600198933 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 28EFE1E31739E95600198933 /* Icon.png */; };
+		28FC6799172C34F8005332D0 /* customword.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28FC678C172C34F8005332D0 /* customword.txt */; };
+		28FC679A172C34F8005332D0 /* financedefinitions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28FC678D172C34F8005332D0 /* financedefinitions.txt */; };
+		28FC679B172C34F8005332D0 /* financewords.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28FC678E172C34F8005332D0 /* financewords.txt */; };
+		28FC679C172C34F8005332D0 /* hardwords.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28FC678F172C34F8005332D0 /* hardwords.txt */; };
+		28FC679D172C34F8005332D0 /* state0.png in Resources */ = {isa = PBXBuildFile; fileRef = 28FC6790172C34F8005332D0 /* state0.png */; };
+		28FC679E172C34F8005332D0 /* state1.png in Resources */ = {isa = PBXBuildFile; fileRef = 28FC6791172C34F8005332D0 /* state1.png */; };
+		28FC679F172C34F8005332D0 /* state2.png in Resources */ = {isa = PBXBuildFile; fileRef = 28FC6792172C34F8005332D0 /* state2.png */; };
+		28FC67A0172C34F8005332D0 /* state3.png in Resources */ = {isa = PBXBuildFile; fileRef = 28FC6793172C34F8005332D0 /* state3.png */; };
+		28FC67A1172C34F8005332D0 /* state4.png in Resources */ = {isa = PBXBuildFile; fileRef = 28FC6794172C34F8005332D0 /* state4.png */; };
+		28FC67A2172C34F8005332D0 /* state5.png in Resources */ = {isa = PBXBuildFile; fileRef = 28FC6795172C34F8005332D0 /* state5.png */; };
+		28FC67A3172C34F8005332D0 /* state6.png in Resources */ = {isa = PBXBuildFile; fileRef = 28FC6796172C34F8005332D0 /* state6.png */; };
+		28FC67A4172C34F8005332D0 /* state7.png in Resources */ = {isa = PBXBuildFile; fileRef = 28FC6797172C34F8005332D0 /* state7.png */; };
+		28FC67A5172C34F8005332D0 /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28FC6798172C34F8005332D0 /* words.txt */; };
+		28FC67A8172C3711005332D0 /* DefinitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FC67A7172C3711005332D0 /* DefinitionViewController.m */; };
+		28FC67AB172C3ED2005332D0 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FC67AA172C3ED2005332D0 /* SettingsViewController.m */; };
+		E2035CC41738269200BF7CC4 /* edge.png in Resources */ = {isa = PBXBuildFile; fileRef = E2035CC31738269200BF7CC4 /* edge.png */; };
+		E28CF68017345B5D00646F0B /* SecretStockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E28CF67F17345B5D00646F0B /* SecretStockViewController.m */; };
+		E28CF68317345BE300646F0B /* TopToBottomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = E28CF68217345BE300646F0B /* TopToBottomSegue.m */; };
+		E28CF68617345BEB00646F0B /* BottomToTopSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = E28CF68517345BEB00646F0B /* BottomToTopSegue.m */; };
 		E28EB04B16DBE65A00811FCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E28EB04A16DBE65A00811FCA /* UIKit.framework */; };
 		E28EB04D16DBE65A00811FCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E28EB04C16DBE65A00811FCA /* Foundation.framework */; };
 		E28EB04F16DBE65A00811FCA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E28EB04E16DBE65A00811FCA /* CoreGraphics.framework */; };
@@ -21,6 +47,42 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		284815F2172DB1F900760128 /* RightToLeftSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightToLeftSegue.h; sourceTree = "<group>"; };
+		284815F3172DB1F900760128 /* RightToLeftSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightToLeftSegue.m; sourceTree = "<group>"; };
+		284815F5172DB58700760128 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = ../../../../../System/Library/Frameworks/QuartzCore.framework; sourceTree = "<group>"; };
+		284815F7172DB5FF00760128 /* LeftToRightSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftToRightSegue.h; sourceTree = "<group>"; };
+		284815F8172DB5FF00760128 /* LeftToRightSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftToRightSegue.m; sourceTree = "<group>"; };
+		284815FA172DC7FC00760128 /* Package.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Package.h; sourceTree = "<group>"; };
+		284815FB172DC7FC00760128 /* Package.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Package.m; sourceTree = "<group>"; };
+		287AF08E1735B87B009C0A46 /* CakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CakeViewController.h; sourceTree = "<group>"; };
+		287AF08F1735B87B009C0A46 /* CakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CakeViewController.m; sourceTree = "<group>"; };
+		287AF0911735FD7B009C0A46 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		287AF0921735FD7B009C0A46 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		28EFE1E31739E95600198933 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		28FC678C172C34F8005332D0 /* customword.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = customword.txt; path = Resources/customword.txt; sourceTree = "<group>"; };
+		28FC678D172C34F8005332D0 /* financedefinitions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = financedefinitions.txt; path = Resources/financedefinitions.txt; sourceTree = "<group>"; };
+		28FC678E172C34F8005332D0 /* financewords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = financewords.txt; path = Resources/financewords.txt; sourceTree = "<group>"; };
+		28FC678F172C34F8005332D0 /* hardwords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = hardwords.txt; path = Resources/hardwords.txt; sourceTree = "<group>"; };
+		28FC6790172C34F8005332D0 /* state0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = state0.png; path = Resources/state0.png; sourceTree = "<group>"; };
+		28FC6791172C34F8005332D0 /* state1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = state1.png; path = Resources/state1.png; sourceTree = "<group>"; };
+		28FC6792172C34F8005332D0 /* state2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = state2.png; path = Resources/state2.png; sourceTree = "<group>"; };
+		28FC6793172C34F8005332D0 /* state3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = state3.png; path = Resources/state3.png; sourceTree = "<group>"; };
+		28FC6794172C34F8005332D0 /* state4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = state4.png; path = Resources/state4.png; sourceTree = "<group>"; };
+		28FC6795172C34F8005332D0 /* state5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = state5.png; path = Resources/state5.png; sourceTree = "<group>"; };
+		28FC6796172C34F8005332D0 /* state6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = state6.png; path = Resources/state6.png; sourceTree = "<group>"; };
+		28FC6797172C34F8005332D0 /* state7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = state7.png; path = Resources/state7.png; sourceTree = "<group>"; };
+		28FC6798172C34F8005332D0 /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = words.txt; path = Resources/words.txt; sourceTree = "<group>"; };
+		28FC67A6172C3711005332D0 /* DefinitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefinitionViewController.h; sourceTree = "<group>"; };
+		28FC67A7172C3711005332D0 /* DefinitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefinitionViewController.m; sourceTree = "<group>"; };
+		28FC67A9172C3ED2005332D0 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		28FC67AA172C3ED2005332D0 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		E2035CC31738269200BF7CC4 /* edge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = edge.png; path = Resources/edge.png; sourceTree = "<group>"; };
+		E28CF67E17345B5D00646F0B /* SecretStockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecretStockViewController.h; sourceTree = "<group>"; };
+		E28CF67F17345B5D00646F0B /* SecretStockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecretStockViewController.m; sourceTree = "<group>"; };
+		E28CF68117345BE300646F0B /* TopToBottomSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopToBottomSegue.h; sourceTree = "<group>"; };
+		E28CF68217345BE300646F0B /* TopToBottomSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopToBottomSegue.m; sourceTree = "<group>"; };
+		E28CF68417345BEB00646F0B /* BottomToTopSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomToTopSegue.h; sourceTree = "<group>"; };
+		E28CF68517345BEB00646F0B /* BottomToTopSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomToTopSegue.m; sourceTree = "<group>"; };
 		E28EB04716DBE65A00811FCA /* Hangman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E28EB04A16DBE65A00811FCA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E28EB04C16DBE65A00811FCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,6 +109,7 @@
 				E28EB04B16DBE65A00811FCA /* UIKit.framework in Frameworks */,
 				E28EB04D16DBE65A00811FCA /* Foundation.framework in Frameworks */,
 				E28EB04F16DBE65A00811FCA /* CoreGraphics.framework in Frameworks */,
+				284815F6172DB58700760128 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +119,9 @@
 		E28EB03E16DBE65A00811FCA = {
 			isa = PBXGroup;
 			children = (
+				28EFE1E31739E95600198933 /* Icon.png */,
 				E28EB05016DBE65A00811FCA /* Hangman */,
+				E28EB06D16DBF11600811FCA /* Resources */,
 				E28EB04916DBE65A00811FCA /* Frameworks */,
 				E28EB04816DBE65A00811FCA /* Products */,
 			);
@@ -73,6 +138,7 @@
 		E28EB04916DBE65A00811FCA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				284815F5172DB58700760128 /* QuartzCore.framework */,
 				E28EB04A16DBE65A00811FCA /* UIKit.framework */,
 				E28EB04C16DBE65A00811FCA /* Foundation.framework */,
 				E28EB04E16DBE65A00811FCA /* CoreGraphics.framework */,
@@ -88,6 +154,26 @@
 				E28EB06216DBE65A00811FCA /* MainStoryboard.storyboard */,
 				E28EB06516DBE65A00811FCA /* ViewController.h */,
 				E28EB06616DBE65A00811FCA /* ViewController.m */,
+				28FC67A6172C3711005332D0 /* DefinitionViewController.h */,
+				28FC67A7172C3711005332D0 /* DefinitionViewController.m */,
+				28FC67A9172C3ED2005332D0 /* SettingsViewController.h */,
+				28FC67AA172C3ED2005332D0 /* SettingsViewController.m */,
+				E28CF67E17345B5D00646F0B /* SecretStockViewController.h */,
+				E28CF67F17345B5D00646F0B /* SecretStockViewController.m */,
+				287AF08E1735B87B009C0A46 /* CakeViewController.h */,
+				287AF08F1735B87B009C0A46 /* CakeViewController.m */,
+				287AF0911735FD7B009C0A46 /* AboutViewController.h */,
+				287AF0921735FD7B009C0A46 /* AboutViewController.m */,
+				284815F2172DB1F900760128 /* RightToLeftSegue.h */,
+				284815F3172DB1F900760128 /* RightToLeftSegue.m */,
+				284815F7172DB5FF00760128 /* LeftToRightSegue.h */,
+				284815F8172DB5FF00760128 /* LeftToRightSegue.m */,
+				E28CF68117345BE300646F0B /* TopToBottomSegue.h */,
+				E28CF68217345BE300646F0B /* TopToBottomSegue.m */,
+				E28CF68417345BEB00646F0B /* BottomToTopSegue.h */,
+				E28CF68517345BEB00646F0B /* BottomToTopSegue.m */,
+				284815FA172DC7FC00760128 /* Package.h */,
+				284815FB172DC7FC00760128 /* Package.m */,
 				E28EB05116DBE65A00811FCA /* Supporting Files */,
 			);
 			path = Hangman;
@@ -105,6 +191,27 @@
 				E28EB06016DBE65A00811FCA /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E28EB06D16DBF11600811FCA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28FC678E172C34F8005332D0 /* financewords.txt */,
+				28FC6798172C34F8005332D0 /* words.txt */,
+				28FC678F172C34F8005332D0 /* hardwords.txt */,
+				28FC678C172C34F8005332D0 /* customword.txt */,
+				28FC678D172C34F8005332D0 /* financedefinitions.txt */,
+				28FC6790172C34F8005332D0 /* state0.png */,
+				28FC6791172C34F8005332D0 /* state1.png */,
+				28FC6792172C34F8005332D0 /* state2.png */,
+				28FC6793172C34F8005332D0 /* state3.png */,
+				28FC6794172C34F8005332D0 /* state4.png */,
+				28FC6795172C34F8005332D0 /* state5.png */,
+				28FC6796172C34F8005332D0 /* state6.png */,
+				28FC6797172C34F8005332D0 /* state7.png */,
+				E2035CC31738269200BF7CC4 /* edge.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +270,21 @@
 				E28EB05F16DBE65A00811FCA /* Default@2x.png in Resources */,
 				E28EB06116DBE65A00811FCA /* Default-568h@2x.png in Resources */,
 				E28EB06416DBE65A00811FCA /* MainStoryboard.storyboard in Resources */,
+				28FC6799172C34F8005332D0 /* customword.txt in Resources */,
+				28FC679A172C34F8005332D0 /* financedefinitions.txt in Resources */,
+				28FC679B172C34F8005332D0 /* financewords.txt in Resources */,
+				28FC679C172C34F8005332D0 /* hardwords.txt in Resources */,
+				28FC679D172C34F8005332D0 /* state0.png in Resources */,
+				28FC679E172C34F8005332D0 /* state1.png in Resources */,
+				28FC679F172C34F8005332D0 /* state2.png in Resources */,
+				28FC67A0172C34F8005332D0 /* state3.png in Resources */,
+				28FC67A1172C34F8005332D0 /* state4.png in Resources */,
+				28FC67A2172C34F8005332D0 /* state5.png in Resources */,
+				28FC67A3172C34F8005332D0 /* state6.png in Resources */,
+				28FC67A4172C34F8005332D0 /* state7.png in Resources */,
+				28FC67A5172C34F8005332D0 /* words.txt in Resources */,
+				E2035CC41738269200BF7CC4 /* edge.png in Resources */,
+				28EFE1E41739E95600198933 /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +298,16 @@
 				E28EB05716DBE65A00811FCA /* main.m in Sources */,
 				E28EB05B16DBE65A00811FCA /* AppDelegate.m in Sources */,
 				E28EB06716DBE65A00811FCA /* ViewController.m in Sources */,
+				28FC67A8172C3711005332D0 /* DefinitionViewController.m in Sources */,
+				28FC67AB172C3ED2005332D0 /* SettingsViewController.m in Sources */,
+				284815F4172DB1F900760128 /* RightToLeftSegue.m in Sources */,
+				284815F9172DB5FF00760128 /* LeftToRightSegue.m in Sources */,
+				284815FC172DC7FC00760128 /* Package.m in Sources */,
+				E28CF68017345B5D00646F0B /* SecretStockViewController.m in Sources */,
+				E28CF68317345BE300646F0B /* TopToBottomSegue.m in Sources */,
+				E28CF68617345BEB00646F0B /* BottomToTopSegue.m in Sources */,
+				287AF0901735B87B009C0A46 /* CakeViewController.m in Sources */,
+				287AF0931735FD7C009C0A46 /* AboutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +430,7 @@
 				E28EB06C16DBE65A00811FCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
