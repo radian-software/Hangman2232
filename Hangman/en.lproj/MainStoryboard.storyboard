@@ -163,6 +163,9 @@
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" editable="NO" text="Default text" translatesAutoresizingMaskIntoConstraints="NO" id="k5y-2v-ALh">
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" notEnabled="YES"/>
+                                </accessibility>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="LU2-bu-oX4"/>
                                 </constraints>
@@ -1117,6 +1120,7 @@ To play the stock market game, simply use the plus/minus steppers to invest mone
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" editable="NO" text="Default text" translatesAutoresizingMaskIntoConstraints="NO" id="ofd-au-cxd">
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" notEnabled="YES"/>
                                     <bool key="isElement" value="NO"/>
                                 </accessibility>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1246,100 +1250,12 @@ To play the stock market game, simply use the plus/minus steppers to invest mone
     <resources>
         <image name="edge.png" width="640" height="960"/>
     </resources>
-    <classes>
-        <class className="AboutViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/AboutViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="loadMainView:"/>
-            </relationships>
-        </class>
-        <class className="CakeViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CakeViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="loadMainView:"/>
-                <relationship kind="action" name="resetStocks:"/>
-            </relationships>
-        </class>
-        <class className="DefinitionViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/DefinitionViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="loadMainView:"/>
-                <relationship kind="outlet" name="definitionView" candidateClass="UITextView"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="SecretStockViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SecretStockViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="delayChanged:"/>
-                <relationship kind="action" name="loadMainView:"/>
-                <relationship kind="action" name="simulateStocks:"/>
-                <relationship kind="action" name="stockInvested1:"/>
-                <relationship kind="action" name="stockInvested2:"/>
-                <relationship kind="action" name="stockInvested3:"/>
-                <relationship kind="outlet" name="investLabel1" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="investLabel2" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="investLabel3" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="nameLabel1" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="nameLabel2" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="nameLabel3" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="scoreLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="sharesLabel1" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="sharesLabel2" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="sharesLabel3" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="stockStatus1" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="stockStatus2" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="stockStatus3" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="stockStepper1" candidateClass="UIStepper"/>
-                <relationship kind="outlet" name="stockStepper2" candidateClass="UIStepper"/>
-                <relationship kind="outlet" name="stockStepper3" candidateClass="UIStepper"/>
-                <relationship kind="outlet" name="waitButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="waitStepper" candidateClass="UIStepper"/>
-            </relationships>
-        </class>
-        <class className="SettingsViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SettingsViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="faultNumberChanged:"/>
-                <relationship kind="action" name="keyboardSwitched:"/>
-                <relationship kind="action" name="loadMainView:"/>
-                <relationship kind="action" name="wordFileChanged:"/>
-                <relationship kind="outlet" name="customWordField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="faultsCounter" candidateClass="UIStepper"/>
-                <relationship kind="outlet" name="faultsCounterLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="keyboardSwitch" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="wordfilePanel" candidateClass="UISegmentedControl"/>
-            </relationships>
-        </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="keyboardPressed:"/>
-                <relationship kind="action" name="loadAboutView:"/>
-                <relationship kind="action" name="loadCakeView:"/>
-                <relationship kind="action" name="loadDefinitionView:"/>
-                <relationship kind="action" name="loadSecretStockView:"/>
-                <relationship kind="action" name="loadSettingsView:"/>
-                <relationship kind="action" name="resetButtonPressed:"/>
-                <relationship kind="outlet" name="faultField" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="guessField" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="scoreLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="statusField" candidateClass="UITextView"/>
-                <relationship kind="outlet" name="textField" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="viewDefinitionButton" candidateClass="UIBarButtonItem"/>
-                <relationship kind="outletCollection" name="keyboardButtons" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="n93-V9-gDY"/>
+        <segue reference="C8Q-zn-2ue"/>
     </inferredMetricsTieBreakers>
 </document>

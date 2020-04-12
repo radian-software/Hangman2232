@@ -15,7 +15,6 @@
 @implementation AboutViewController
 
 - (IBAction)loadMainView:(id)sender {
-    NSLog(@"Performing segue...");
     [self performSegueWithIdentifier:@"loadMainView" sender:sender];
 }
 
