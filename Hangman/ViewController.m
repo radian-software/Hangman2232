@@ -3,7 +3,7 @@
 //  Hangman
 //
 //  Created by Radon Rosborough on 2/25/13.
-//  Copyright (c) 2013 Raxod502. All rights reserved.
+//  Copyright (c) 2013-2022 Radian LLC and contributors.
 //
 
 #import "ViewController.h"
@@ -165,7 +165,7 @@ NSString *special = @" -'.,/";
         unichar chars[1] = {[display characterAtIndex:i]};
         [realdisplay appendAttributedString:[[NSMutableAttributedString alloc] initWithString:[NSString stringWithCharacters:chars length:1]]];
     }
-    
+
     return realdisplay;
 }
 
@@ -264,7 +264,7 @@ NSString *special = @" -'.,/";
     self.statusString2 = package.statusString2;
     self.statusString3 = package.statusString3;
     self.removeLabels = package.removeLabels;
-    
+
     if ([self callReset]) {
         [self resetButtonPressed:nil];
         [self setCallReset:NO];

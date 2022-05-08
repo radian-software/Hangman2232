@@ -788,7 +788,7 @@
                                     <bool key="isElement" value="NO"/>
                                 </accessibility>
                                 <gestureRecognizers/>
-                                <string key="text">This app was made for the ScholarDollars financial literacy game competition in May 2013, by Radon Rosborough.
+                                <string key="text">This app was made for the ScholarDollars financial literacy game competition in May 2013, by Radon Rosborough, and is currently maintained by Radian LLC.
 
 To play the hangman game, simply enter letters on the keyboard. You will lose money for each letter you get wrong, but you will gain money if you complete the whole word in under seven mistakes (configurable in the settings screen). By default, the game uses a list of 248 financial literacy-related words and their definitions. However, you can configure it to use an extensive list of most English words or enter a custom word for two-player use. Score is disabled for other word lists.
 To play the stock market game, simply use the plus/minus steppers to invest money in the three stocks, then click the "wait" button to wait the displayed time. You can then take money out of the stocks with the steppers. Try to notice trends in the stocks so you can make money!</string>

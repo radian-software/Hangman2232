@@ -3,7 +3,7 @@
 //  Hangman
 //
 //  Created by Radon Rosborough on 5/3/13.
-//  Copyright (c) 2013 Raxod502. All rights reserved.
+//  Copyright (c) 2013-2022 Radian LLC and contributors.
 //
 
 #import "SecretStockViewController.h"
@@ -89,7 +89,7 @@
             [self setStockVel1:[self stockVel1]/0.98];
         }
         [self setStockPrice1:[self stockPrice1]*[self stockVel1]];
-        
+
         [self setStockVel2:clamp(0.95, [self stockVel2]*[self randomBetween:0.975 :1.0/0.975], 1.0/0.95)];
         if ([self stockVel2] > 1.025) {
             [self setStockVel2:[self stockVel2]*0.96];
@@ -98,7 +98,7 @@
             [self setStockVel2:[self stockVel2]/0.96];
         }
         [self setStockPrice2:[self stockPrice2]*[self stockVel2]];
-        
+
         [self setStockVel3:clamp(0.80, [self stockVel3]*[self randomBetween:0.90 :1.0/0.90], 1.0/0.80)];
         if ([self stockVel3] > 1.025) {
             [self setStockVel3:[self stockVel3]*0.96];
@@ -107,7 +107,7 @@
             [self setStockVel3:[self stockVel3]/0.96];
         }
         [self setStockPrice3:[self stockPrice3]*[self stockVel3]];
-        
+
         [self setStockPrice1:[self stockPrice1]+(20-[self stockPrice1])*0.01];
         [self setStockPrice2:[self stockPrice2]+(20-[self stockPrice2])*0.01];
         [self setStockPrice3:[self stockPrice3]+(20-[self stockPrice3])*0.01];

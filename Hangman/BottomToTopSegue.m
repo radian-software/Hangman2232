@@ -3,7 +3,7 @@
 //  Hangman
 //
 //  Created by Radon Rosborough on 5/3/13.
-//  Copyright (c) 2013 Raxod502. All rights reserved.
+//  Copyright (c) 2013-2022 Radian LLC and contributors.
 //
 
 #import "BottomToTopSegue.h"
